@@ -1,5 +1,7 @@
 function play() {
 
+    var obj = initialize();
+
     var random_1 = Math.floor(Math.random() * obj["data_dg"].length);
 
     var random_2 = Math.floor(Math.random() * 2);
