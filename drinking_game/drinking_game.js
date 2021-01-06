@@ -2,17 +2,17 @@ var json_data = `
 {
     "data_dg" : [
         {
-            "YN": "me he chupao el culo",
+            "YN": "YN 1",
             "P": "P 1",
             "R": "R 1"
         },
         {
-            "YN": "me he chupao el dedo",
+            "YN": "YN 2",
             "P": "P 2",
             "R": "R 2"
         },
         {
-            "YN": "me he chupao el pie",
+            "YN": "YN 3",
             "P": "P 3",
             "R": "R 3"
         }
