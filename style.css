@@ -1,0 +1,15 @@
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.completed-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #67CDFE;
+    border-radius: 50%;
+    display: inline-block;
+}
