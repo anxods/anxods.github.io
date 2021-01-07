@@ -2,17 +2,322 @@ var json_data = `
 {
     "data_dg" : [
         {
-            "YN": "YN 1",
+            "YN": "Yo nunca he vuelto con mi ex",
             "P": "P 1",
             "R": "R 1"
         },
         {
-            "YN": "YN 2",
+            "YN": "Yo nunca me he liado con el ex de un amig@",
             "P": "P 2",
             "R": "R 2"
         },
         {
-            "YN": "YN 3",
+            "YN": "Yo nunca he escrito a mi ex una noche de fiesta",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he estado más de tres días sin ducharme",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he stalkeado el instagram del el/la ex de mi novi@",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he imaginado siendo del sexo opuesto",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca mentí en el Yo Nunca",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he ligado con el novi@ de un amig@",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he sido pillado masturbándome",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he pillado a un familiar masturbándose",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he pillado a un familiar teniendo sexo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he pillado a un amigo teniendo sexo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca lo he hecho en un sitio público",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca lo he hecho en el mar",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca lo he hecho en el probador de una tienda",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca lo he hecho en un coche",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca lo he hecho en una moto",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he sentido atraído por alguien del mismo sexo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he sentido atraído por alguien de este grupo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he sentido atraído por un profesor o profesora",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he sentido atraído por la pareja de una amistad",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he estado esposado",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he robado algo de menos de 100 euros",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he robado algo de más de 100 euros",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he masturbado con un objeto extraño",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he masturbado fuera de casa",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he probado la comida para animales",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he sentido atraído por una persona mayor de 40 (no famos@)",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he espiado la nueva pareja de mi ex por redes",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he robado copas de una discoteca",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he liado con una persona de este grupo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he tenido más de tres orgasmos en un día",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he usado juguetes sexuales con mi pareja",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he sido infiel",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he vomitado en público después de beber",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he paseado por casa desnudo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he liado con una persona casada",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he vestido con ropa del sexo opuesto",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he visto a mis padres desnudos",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he pillado a mis padres teniendo sexo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he hecho un test de embarazo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he masturbado más de 3 veces en un día",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he masturbado más de 5 veces en un día",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he roto la cama",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he emborrachado por la mañana",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he probado el cibersexo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he jugado a ser otra persona durante el sexo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he gritado el nombre de otra persona durante el sexo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he hecho cosas indecentes en el cine",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he besado a alguien sin saber su nombre",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he visto porno con mi pareja",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he hecho sexo oral conduciendo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he recibido sexo oral conduciendo",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he tenido un fetiche extraño",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca me he sentido sexualmente atraído/a por un personaje de dibujos animados",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he meado en la ducha",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he mandado una captura de pantalla a la persona que estaba intentando criticar sin querer",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he respondido gracias cuando me han dicho te quiero",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he llevado los mismos calcetines más de tres días seguidos",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he cagado en el mar",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he cagado en el monte",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he cagado en la calle",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he hecho como que no encontraba las llaves/mirado el móvil para no saludar a alguien por la calle",
+            "P": "P 3",
+            "R": "R 3"
+        },
+        {
+            "YN": "Yo nunca he salido a la calle en pijama",
             "P": "P 3",
             "R": "R 3"
         }
@@ -21,11 +326,29 @@ var json_data = `
 
 var obj = JSON.parse(json_data);
 
+var players = [];
+
+function addPlayer(){
+
+    var newArray = document.getElementById("age").value;
+    if (newArray == "" || newArray == null) {
+
+    } else {
+        players.push(newArray);
+        document.getElementById("age").value = " ";
+        document.getElementById("players").innerHTML = players;
+    }
+
+}
+
 function play() {
 
     var random_1 = Math.floor(Math.random() * obj["data_dg"].length);
 
     var random_2 = Math.floor(Math.random() * 2);
+
+    // Referencia de cuántas preguntas hay
+    console.log(obj["data_dg"].length);
 
     cleanScreen();
     loadingContent();
@@ -36,7 +359,9 @@ function play() {
             break;
         
         case 1:
-            setTimeout(pruebaOReto, 770*2.5, random_1);
+            var random_name = Math.floor(Math.random() * players.length);
+            var player_selected = players[random_name];
+            setTimeout(pruebaOReto, 770*2.5, random_1, player_selected);
             break;
     
         default:
@@ -46,6 +371,27 @@ function play() {
 }
 
 function cleanScreen() {
+
+    if (document.getElementById("age")) {
+        var form = document.getElementById("age");
+        form.remove();
+    }
+
+    if (document.getElementById("player_button")) {
+        var form = document.getElementById("player_button");
+        form.remove();
+    }
+
+    if (document.getElementById("players")) {
+        var form = document.getElementById("players");
+        form.remove();
+    }
+
+    if (document.getElementById("player_text")) {
+        var form = document.getElementById("player_text");
+        form.remove();
+    }
+
     if (document.getElementById("play_button")) {
         var button = document.getElementById("play_button");
         button.remove();
@@ -153,17 +499,27 @@ function yoNunca(text) {
     putNextButton();
 }
 
-function pruebaOReto(index) {
+function pruebaOReto(index, player_selected) {
 
     // First we delete the main screen
-    cleanScreen()
+    cleanScreen();
+    
+    var playerDiv = document.createElement("div");
+    var playerContent = document.createTextNode(player_selected);
+    playerDiv.appendChild(playerContent);
+    playerDiv.classList = "player_text";
+    playerDiv.id = "player_text";
+
+    document.getElementById("content").appendChild(playerDiv);
+
+    document.getElementById("content").appendChild(document.createElement("br"));
 
     // Then we put:
     //  1. Button Prueba
     var pruebaButtonDiv = document.createElement("div");
     var pruebaButton = document.createElement("button");
     pruebaButton.onclick = function() {
-        pruebaPlay(index);
+        pruebaPlay(index, player_selected);
     };
     pruebaButton.classList = "play_button";
     pruebaButton.id = "prueba_button";
@@ -176,18 +532,18 @@ function pruebaOReto(index) {
     var retoButtonDiv = document.createElement("div");
     var retoButton = document.createElement("button");
     retoButton.onclick = function() {
-        retoPlay(index);
+        retoPlay(index, player_selected);
     };
     retoButton.classList = "play_button";
     retoButton.id = "reto_button";
-    retoButton.innerHTML = "Reto";
+    retoButton.innerHTML = "Verdad";
     retoButtonDiv.appendChild(retoButton);
 
     document.getElementById("content").appendChild(retoButtonDiv);
     
 }
 
-function prText(pr_text, pr, index) {
+function prText(pr_text, pr, index, player_selected) {
 
     var textPDiv = document.createElement("div");
     var textPDivContent = document.createTextNode(pr_text);
@@ -211,28 +567,28 @@ function prText(pr_text, pr, index) {
 
 }
 
-function pruebaPlay(index) {
+function pruebaPlay(index, player_selected) {
     
     // First we delete the main screen
     cleanScreen()
 
     // Then we put:
     //  1. Text
-    prText("Prueba: ", "P", index);
+    prText("Prueba: ", "P", index, player_selected);
 
     //  2. Button
     putNextButton();
 
 }
 
-function retoPlay(index) {
+function retoPlay(index, player_selected) {
 
     // First we delete the main screen
     cleanScreen()
 
     // Then we put:
     //  1. Text
-    prText("Reto: ", "R", index);
+    prText("Verdad: ", "R", index, player_selected);
 
     //  2. Button
     putNextButton();
