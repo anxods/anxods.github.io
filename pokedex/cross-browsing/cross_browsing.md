@@ -1,0 +1,24 @@
+| Elemento CSS | Firefox | Chrome |
+| -- | -- | -- |
+| background | 1 | 1 |
+| background-color | 1 | 1 |
+| border | 1 | 1 |
+| border-radius | 4 | 5 |
+| box-sizing | 29 | 10 |
+| color | 1 | 1 |
+| cursor | 4 | 5 |
+| display | 3 | 4 |
+| float | 1 | 1 |
+| font-family | 1 | 1 |
+| font-size | 1 | 1 |
+| font-weight | 1 | 2 |
+| margin-bottom | 1 | 1 |
+| margin-left | 1 | 1 |
+| margin-right | 1 | 1 |
+| margin-top | 1 | 1 |
+| overflow | 1 | 1 |
+| padding | 1 | 1 |
+| position | 1 | 1 |
+| text-align | 1 | 1 |
+| text-decoration | 1 | 1 |
+| width | 1 | 1 |
