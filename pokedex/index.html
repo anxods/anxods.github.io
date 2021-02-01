@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="src/assets/icono.png" sizes="16x16">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body class="body" id="body">
+    <div class="topnav" role="navigation">
+        <a class="home_link" href="/pokedex/">Pokédex</a>
+        <a class="api_link" href="https://pokeapi.co/">About PokéAPI</a>
+    </div>
+    <div>
+        <p class="p_index" id="p_index">
+            PokéAPI: The RESTful Pokémon API
+        </p>
+        <div>
+            <form id="form" class="poke_form">
+                <label for="pokemon_name" class="search_label">Type the name of a pokémon, or the #pokédex!</label>
+                <input 
+                    type="text" 
+                    name="pokemon" 
+                    class="search_input" 
+                    id="pokemon_name" 
+                    required
+                    aria-required="true">           
+                <button aria-label="Search" type="submit" class="search" id="search_btn">Search</button> 
+            </form>
+            <div id="btn_random">
+                <button aria-label="Search Random" type="button" class="search_random" id="search_btn_random">Search Random</button>
+            </div>
+        </div>       
+    </div>
+    <script src="src/app.js"></script>
+    <script src="src/types.js"></script>
+    <script src="src/random.js"></script>
+</body>
+</html>
