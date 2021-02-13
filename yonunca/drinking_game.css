@@ -18,6 +18,17 @@
     font-size: 1.5rem;
 }
 
+.title2 {
+    font-size: 1rem;
+} 
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+        padding: 5%;
+    }
+}
+
 .button {
     transition-duration: 0.4s;
 }
@@ -37,26 +48,42 @@
 
 input[type=text] {
     border: 2px solid black;
-    border-radius: 12px;
+    border-radius: 5px;
     background-color: white;
     color: black;
 }
 
 .submit_button{
-    padding: 1.5%;
+    padding: 2.5%;
     width: 40%;
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition-duration: 0.2s;
     margin: 7.5%;
     background-color:white;
     color: black;
-    border: solid black;
-    border-radius: 12px;
+    border: thick black;
     cursor: pointer;
 }
 
+.players_div {
+    border: solid #000000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .player_text {
+    padding-top: 10%;
     margin-top: -10%;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .player_text {
+        padding-top: 5%;
+        font-size: 1.15rem;
+        font-weight: bold;
+    }
 }
 
 .play_button:hover, .prueba_button:hover, .reto_button:hover {
