@@ -849,6 +849,60 @@ var obj = JSON.parse(json_data);
 
 var players = [];
 
+function start() {
+
+    cleanScreen();
+
+    page = document.getElementById("content");
+
+    var explicacion = document.createElement("p");
+    explicacion.id = "explicacion";
+    explicacion.innerHTML = "Introduce los nombres de los jugadores si queréis tener frases de Reto o Verdad, a parte de las de Yo Nunca, y dale a "
+    
+    var botont = document.createElement("em");
+    botont.innerHTML = "¡Jugar!";
+    explicacion.appendChild(botont);
+
+    page.appendChild(explicacion);
+
+    var br1 = document.createElement("br");
+    br1.id = "br1";
+    page.appendChild(br1);
+
+    var input = document.createElement("input");
+    input.type = "text";
+    input.id = "age";
+    page.appendChild(input);
+
+    var br2 = document.createElement("br");
+    br2.id = "br2";
+    page.appendChild(br2);
+
+    var inputb = document.createElement("input");
+    inputb.type = "button";
+    inputb.value = "Añadir jugador";
+    inputb.onclick = function() {
+        addPlayer();
+    }
+    inputb.id = "player_button";
+    inputb.className = "submit_button";
+    page.appendChild(inputb);
+
+    var parag = document.createElement("p");
+    parag.id = "players";
+    page.appendChild(parag);
+
+    var jugar = document.createElement("button");
+    jugar.id = "play_button";
+    jugar.className = "play_button";
+    jugar.innerHTML = "¡Jugar!"
+    jugar.onclick = function() {
+        play();
+    }
+    page.appendChild(jugar);
+
+}
+
 function addPlayer(){
 
     var newArray = document.getElementById("age").value;
@@ -946,6 +1000,26 @@ function cleanScreen() {
 
     if (document.getElementById("br1")) {
         var br1 = document.getElementById("br1");
+        br1.remove()
+    }
+
+    if (document.getElementById("br2")) {
+        var br1 = document.getElementById("br2");
+        br1.remove()
+    }
+
+    if (document.getElementById("br3")) {
+        var br1 = document.getElementById("br3");
+        br1.remove()
+    }
+
+    if (document.getElementById("explicacion")) {
+        var br1 = document.getElementById("explicacion");
+        br1.remove()
+    }
+
+    if (document.getElementById("explicacion2")) {
+        var br1 = document.getElementById("explicacion2");
         br1.remove()
     }
 

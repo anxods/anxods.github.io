@@ -33,6 +33,18 @@
     transition-duration: 0.4s;
 }
 
+#explicacion em {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    #explicacion {
+        margin-top: -8%;
+        font-family: Verdana;
+        font-size: 15px;
+    }
+}
+
 .play_button, .prueba_button, .reto_button {
     padding: 8.5%;
     width: 50%;
@@ -44,6 +56,34 @@
     border: solid black;
     border-radius: 12px;
     cursor: pointer;
+}
+
+#player_button {
+    padding: 2.5%;
+    width: 50%;
+    font-size: 1rem;
+    transition-duration: 0.2s;
+    margin: 7.5%;
+    background-color:white;
+    color: black;
+    border: solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .play_button {
+        padding: 5.5%;
+        width: 50%;
+        font-size: 1rem;
+        transition-duration: 0.2s;
+        margin: 7.5%;
+        background-color:white;
+        color: black;
+        border: solid black;
+        border-radius: 12px;
+        cursor: pointer;
+    }
 }
 
 input[type=text] {
