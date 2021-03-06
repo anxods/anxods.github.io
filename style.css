@@ -1,3 +1,61 @@
+* {
+    background-color: #FFE0C5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name {
+    display: block;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.name2 {
+    display: block;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.name3 {
+    display: block;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.language {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.links:link, .links:visited {
+    background-color: #FFE0C5;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+
+.github_link {
+    text-align: center;
+}
+
+.info_p {
+    text-align: center;
+    font-weight: 500;
+}
+
 .dot {
     height: 10px;
     width: 10px;
