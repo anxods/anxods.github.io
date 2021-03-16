@@ -86,6 +86,21 @@
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .play_button {
+        padding: 2.5%;
+        width: 30%;
+        font-size: 1rem;
+        transition-duration: 0.2s;
+        margin: 4.5%;
+        background-color:white;
+        color: black;
+        border: solid black;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+}
+
 input[type=text] {
     border: 2px solid black;
     border-radius: 5px;

@@ -3,6 +3,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    margin: 5%;
+}
+
 .name2 {
     display: block;
     margin-top: 3rem;
@@ -15,4 +19,31 @@
     text-align: center;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .name2 {
+        width: 50%;
+        display: block;
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .uni-div {
+        width: 45%;
+        float: left;
+        text-align: center;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+
+    .pers-div {
+        width: 45%;
+        float: right;
+        text-align: center;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
 }
