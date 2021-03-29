@@ -43,7 +43,7 @@ function setCanvas() {
         for (j = 0; j < 120; j++) {
             var randomColor = Math.floor(Math.random()*16777215).toString(16);
             ctx.fillStyle = "#" + randomColor;
-            ctx.fillRect(10*j, 10+10*i, 10, 10);
+            ctx.fillRect(10*j, 10*i, 10, 10);
             cnvs_div.appendChild(cnvs);
             body.appendChild(cnvs_div);
         }
@@ -51,7 +51,7 @@ function setCanvas() {
     refreshButton();
 }
 
-/* Botón de volver */
+/* Botón */
 
 function refreshButton() {
     var body = document.body;
