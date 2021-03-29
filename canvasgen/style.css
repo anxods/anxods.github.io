@@ -34,15 +34,15 @@ body {
     display: inline-block;
     width: 60px;
     height: 34px;
-  }
+}
   
-  .switch input { 
+.switch input { 
     opacity: 0;
     width: 0;
     height: 0;
-  }
+}
   
-  .slider {
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -52,9 +52,9 @@ body {
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
+}
   
-  .slider:before {
+.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -64,30 +64,29 @@ body {
     background-color: #C7493A;
     -webkit-transition: .4s;
     transition: .4s;
-  }
+}
   
-  input:checked + .slider {
+input:checked + .slider {
     background-color: black;
-  }
+}
   
-  input:focus + .slider {
+input:focus + .slider {
     box-shadow: 0 0 1px black;
-  }
+}
   
-  input:checked + .slider:before {
+input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  }
+}
   
-  /* Rounded sliders */
-  .slider.round {
+.slider.round {
     border-radius: 34px;
-  }
+}
   
-  .slider.round:before {
+.slider.round:before {
     border-radius: 50%;
-  }   
+}   
 /*
     End
 */
@@ -181,5 +180,27 @@ body {
 
 .github_div {
     font-size: 0.9rem;
+    text-align: center;
+}
+
+/* CSS para código HTML generado por JavaScript */
+
+.loading_img {
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#canvas-container {
+    width: 100%;
+    text-align:center;
+}
+ 
+canvas {
+    display: inline;
+}
+
+#refresh_container {
     text-align: center;
 }
