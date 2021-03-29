@@ -1,0 +1,185 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #151515;
+    color: white;
+    font-weight: bold;
+}
+
+.darkmode {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: white;
+    color: #151515;
+    font-weight: bold;
+}
+
+.titulo {
+    color: #C7493A;
+    text-align: center;
+    padding: 10%;
+    padding-bottom: 0%;
+}
+
+/* 
+    Dark-Light CSS - Start
+*/
+
+.slider_dl {
+    text-align: center;
+    padding-top: -10%;
+    padding-bottom: 10%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #C7493A;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: black;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px black;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }   
+/*
+    End
+*/
+
+.div_button {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .div_button {
+        margin-top: -10%;
+        text-align: center;
+    }
+
+    .titulo {
+        color: #C7493A;
+        text-align: center;
+        padding: 10%;
+        padding-bottom: 5%;
+    }
+
+    .boton_main {
+        color: #ffffff;
+        background-color: #C7493A;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 1.5%;
+        width: 20%;
+        font-size: 1rem;
+        transition-duration: 0.2s;
+        margin: 7.5%;
+        border: solid #ffffff;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .titulo {
+        color: #C7493A;
+        text-align: center;
+        padding-top: 30%;
+        padding-bottom: 5%;
+    }
+
+    .boton_main {
+        color: #ffffff;
+        background-color: #C7493A;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 3.5%;
+        width: 30%;
+        font-size: 1rem;
+        transition-duration: 0.2s;
+        margin: 7.5%;
+        border: solid #ffffff;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {   
+
+    .titulo {
+        color: #C7493A;
+        text-align: center;
+        padding-top: 30%;
+    }
+
+    .boton_main {
+        color: #ffffff;
+        background-color: #C7493A;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 8.5%;
+        width: 50%;
+        font-size: 1rem;
+        transition-duration: 0.2s;
+        margin: 7.5%;
+        border: solid #ffffff;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+}
+
+.github_div {
+    font-size: 0.9rem;
+    text-align: center;
+}
