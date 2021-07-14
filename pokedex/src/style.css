@@ -150,6 +150,25 @@ body {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .poke_img_div {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 2.25rem;
+    vertical-align: middle;
+  }
+
+  .poke_info_div {
+    width: 45%;
+    float: right;
+    text-align: center;
+    margin-right: 2.25rem;
+    vertical-align: middle;
+  }
+}
+
+
 @media only screen and (max-width: 320px) {
   .home_link, .api_link {
     font-size: 0.65rem;

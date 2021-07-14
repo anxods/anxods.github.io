@@ -21,10 +21,14 @@ async function makeRequest(name){
             setTimeout(erasePokemon, 1800);
 
             if (xhr.status == 200) {
-                
+
+                setTimeout(createDiv, 1800, 'poke_img_div');
+
                 var jsonResponse = JSON.parse(xhr.responseText);
                 setTimeout(putImage, 1800, jsonResponse['sprites']['front_default']);
                 
+                setTimeout(createDiv, 1800, 'poke_info_div');
+
                 var id_url = jsonResponse['species']['url'];
                 var id = id_url.substring(42, id_url.length - 1);
                 var name = jsonResponse['name'];
@@ -122,7 +126,7 @@ function putImage(imageURL) {
         img.setAttribute('id', 'pokemon_img');
         img.setAttribute('onclick', 'getShiny()');
         img.setAttribute('aria-pressed', 'false');
-        var src = document.getElementById('body');
+        var src = document.getElementById('poke_img_div');
         src.appendChild(img);
     }
 }
@@ -141,6 +145,18 @@ function getShiny() {
             document.getElementById('pokemon_img').alt = "Pokémon shiny image";
             document.getElementById('pokemon_img').setAttribute('aria-pressed', 'true');
         }
+    }
+}
+
+function createDiv(div_name) {
+    if (document.getElementById(div_name)) {
+
+    } else {
+        var element = document.createElement('div');
+        element.className = div_name;
+        element.id = div_name;
+        var src = document.getElementById('body');
+        src.appendChild(element);
     }
 }
 
@@ -193,7 +209,7 @@ function getName(name, id) {
     info.appendChild(document.createTextNode(finalName));
     info.appendChild(document.createElement("br"));
 
-    var src = document.getElementById('body');
+    var src = document.getElementById('poke_img_div');
     src.appendChild(info);
 }
 
@@ -202,14 +218,20 @@ function getHW(height, weight) {
     wh.setAttribute('id', 'poke_hw');
     wh.classList.add('poke_hw');
 
+    info = "Information:";
+
     finalWeight = "Weight: " + weight.toString() + "kg";
     finalHeight = "Height: " + height.toString() + "m";
+    wh.appendChild(document.createTextNode(info));
+    for (let i = 0; i < 3; i++) {
+        wh.appendChild(document.createElement("br"));
+    }
     wh.appendChild(document.createTextNode(finalHeight));
     wh.appendChild(document.createElement("br"));
     wh.appendChild(document.createTextNode(finalWeight));
     wh.appendChild(document.createElement("br"));
 
-    var src = document.getElementById('body');
+    var src = document.getElementById('poke_info_div');
     src.appendChild(wh);
 }
 
@@ -225,7 +247,7 @@ function getInfo(moves) {
         info.appendChild(document.createElement("br"));
     }
 
-    var src = document.getElementById('body');
+    var src = document.getElementById('poke_info_div');
     src.appendChild(info);
 }
 
@@ -243,7 +265,7 @@ function getStats(stats, stats_names) {
         stats_info.appendChild(document.createElement("br"));
     }
 
-    var src = document.getElementById('body');
+    var src = document.getElementById('poke_info_div');
     src.appendChild(stats_info);    
 }
 

@@ -80,7 +80,7 @@ function putType(image) {
         img.style.width = "30%";
         img.style.maxWidth = "120px";
         img.style.minWidth = "80px";
-        var src = document.getElementById('body');
+        var src = document.getElementById('poke_img_div');
         src.appendChild(img);
     } else {
         var img = document.createElement('img');
@@ -91,7 +91,7 @@ function putType(image) {
         img.style.width = "30%";
         img.style.maxWidth = "120px";
         img.style.minWidth = "80px";
-        var src = document.getElementById('body');
+        var src = document.getElementById('poke_img_div');
         src.appendChild(img);
     }
 }
